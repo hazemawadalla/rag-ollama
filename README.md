@@ -5,7 +5,7 @@
 
 **Abstract**
 
-The RAG Ollama Project presents a novel retrieval-augmented generation (RAG) pipeline to create an efficient and powerful framework for accurate response generation using  smaller ollama models. The pipeline integrates FastAPI, Ollama, Chromadb, and React to provide an end-to-end user experience. 
+The RAG Ollama Project presents a novel retrieval-augmented generation (RAG) pipeline to create an efficient and powerful framework for accurate response generation using  smaller, computationally efficient ollama models. The pipeline integrates FastAPI, Ollama, Chromadb, and React to provide an end-to-end user experience. 
 
 **Introduction**
 
@@ -13,9 +13,9 @@ Retrieval-augmented generation (RAG) is a method in natural language processing 
 
 **System Architecture**
  
-Our pipeline consists of the following components:
+The RAG-ollama pipeline consists of the following components:
 
-1. **Backend**: Built using FastAPI, our backend handles API requests, processes files, and interacts with a vector database.
+1. **Backend**: Built using FastAPI, our  backend handles API requests, processes files, and interacts with a vector database.
 2. **Ollama**: Our system utilizes Ollama for embeddings and model generation, enabling the creation of high-quality responses.
 3. **Chromadb**: We employ Chromadb as a vector database to efficiently store and retrieve documents.
 4. **Frontend**: Our React-based frontend provides an intuitive interface for users to interact with the system.
@@ -85,7 +85,7 @@ A component for displaying and managing chat interactions with the RAG pipeline.
 To get started with the RAG Ollama Project, follow these steps:
 
 Prerequisites: 
-i. Install ollama, ollama models (eg llama3:latest) & node.js
+i. Install ollama, ollama models (eg llama3:latest), ollama embedding model (default is mxbai-embed-large) & node.js
 ii. Create a .env environment with your GOOGLE_API_KEY & GOOGLE_CSE_ID with access to the Google Custom Search API.
 
 1. Clone the repository: [`git clone https://github.com/hazemawadalla/rag-ollama.git`]
