@@ -17,7 +17,7 @@ The RAG-ollama pipeline consists of the following components:
 
 1. **Backend**: Built using FastAPI, The  backend handles API requests, processes files, and interacts with a vector database.
 2. **Ollama**: The system utilizes Ollama for embeddings and model generation, enabling the creation of high-quality responses.
-3. **Chromadb**: I employ Chromadb as a vector database to efficiently store and retrieve documents.
+3. **Chromadb**: The system uses Chromadb as a vector database to efficiently store and retrieve documents.
 4. **Frontend**: The React-based frontend provides an intuitive interface for users to interact with the system.
 
 **Unique Features**
