@@ -110,8 +110,7 @@ I plan to continue improving and expanding the RAG Ollama Project by:
 
 I invite researchers, developers, and industry professionals to join us in this effort and contribute to the advancement of retrieval-augmented generation technology.
 
-###### GNU GENERAL PUBLIC LICENSE
-###### Version 3, 29 June 2007
+###### GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
 Copyright (C) 2025 [Hazem Awadallah]
 
