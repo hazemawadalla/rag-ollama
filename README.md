@@ -84,9 +84,11 @@ A component for displaying and managing chat interactions with the RAG pipeline.
 
 To get started with the RAG Ollama Project, follow these steps:
 
-Prerequisites: Install ollama & node.js 
+Prerequisites: 
+i. Install ollama, ollama models (eg llama3:latest) & node.js
+ii. Create a .env environment with your GOOGLE_API_KEY & GOOGLE_CSE_ID with access to the Google Custom Search API.
 
-1. Clone the repository: `git clone https://github.com/rag-ollama/project.git`
+1. Clone the repository: [`git clone https://github.com/hazemawadalla/rag-ollama.git`]
 2. Navigate to the backend directory: `cd backend`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the FastAPI server: `uvicorn main:app --reload`
