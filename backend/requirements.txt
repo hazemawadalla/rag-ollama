@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+ollama
+PyPDF2
+python-pptx
+opencv-python
+pytesseract
+chromadb
+python-dotenv
+markdown
+googleapi
+tesseract
