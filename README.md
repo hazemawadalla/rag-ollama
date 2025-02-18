@@ -9,7 +9,7 @@ The RAG Ollama Project presents a novel retrieval-augmented generation (RAG) pip
 
 **Introduction**
 
-Retrieval-augmented generation (RAG) is a method in natural language processing that allows for generating more accurate and informative answers from pretrained models by leveraging external knowledge sTheces. The RAG Ollama Project, has set its mission to improve the usability of small local ollama models  by creating an end-to-end pipeline with an indexed chromadb database. 
+Retrieval-augmented generation (RAG) is a method in natural language processing that allows for generating more accurate and informative answers from pretrained models by leveraging external knowledge sources. The RAG Ollama Project, has set its mission to improve the usability of small local ollama models  by creating an end-to-end pipeline with an indexed chromadb database. 
 
 **System Architecture**
  
