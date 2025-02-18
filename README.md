@@ -111,11 +111,10 @@ I plan to continue improving and expanding the RAG Ollama Project by:
 I invite researchers, developers, and industry professionals to join us in this effort and contribute to the advancement of retrieval-augmented generation technology.
 
 
-<video src="[URL_TO_YOUR_VIDEO](https://github.com/user-attachments/assets/2e21ccda-a710-49bd-a432-1ecdc67fa334)" controls="controls" style="max-width: 100%;">
-</video>
+<video src="[URL_TO_YOUR_VIDEO](https://github.com/user-attachments/assets/2e21ccda-a710-49bd-a432-1ecdc67fa334)" controls="controls" style="max-width: 100%;"></video>
 
 
-
+https://github.com/user-attachments/assets/2e21ccda-a710-49bd-a432-1ecdc67fa334
 
 
 
