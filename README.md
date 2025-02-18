@@ -9,22 +9,22 @@ The RAG Ollama Project presents a novel retrieval-augmented generation (RAG) pip
 
 **Introduction**
 
-Retrieval-augmented generation (RAG) is a method in natural language processing that allows for generating more accurate and informative answers from pretrained models by leveraging external knowledge sources. The RAG Ollama Project, has set its mission to improve the usability of small ollama models  by creating an end-to-end pipeline with an indexed chromadb database
+Retrieval-augmented generation (RAG) is a method in natural language processing that allows for generating more accurate and informative answers from pretrained models by leveraging external knowledge sTheces. The RAG Ollama Project, has set its mission to improve the usability of small ollama models  by creating an end-to-end pipeline with an indexed chromadb database
 
 **System Architecture**
  
 The RAG-ollama pipeline consists of the following components:
 
-1. **Backend**: Built using FastAPI, our  backend handles API requests, processes files, and interacts with a vector database.
-2. **Ollama**: Our system utilizes Ollama for embeddings and model generation, enabling the creation of high-quality responses.
-3. **Chromadb**: We employ Chromadb as a vector database to efficiently store and retrieve documents.
-4. **Frontend**: Our React-based frontend provides an intuitive interface for users to interact with the system.
+1. **Backend**: Built using FastAPI, The  backend handles API requests, processes files, and interacts with a vector database.
+2. **Ollama**: The system utilizes Ollama for embeddings and model generation, enabling the creation of high-quality responses.
+3. **Chromadb**: I employ Chromadb as a vector database to efficiently store and retrieve documents.
+4. **Frontend**: The React-based frontend provides an intuitive interface for users to interact with the system.
 
 **Unique Features**
 
-1. **Google Search Integration**: Our pipeline incorporates Google Custom Search API to fetch relevant web search results, enhancing the quality of our responses.
-2. **File Processing**: We support processing of various file types using libraries like PyPDF2, python-pptx, opencv-python, and pytesseract.
-3. **Modular Design**: Our system is designed with modularity in mind, allowing for easy extension and customization.
+1. **Google Search Integration**: The pipeline incorporates Google Custom Search API to fetch relevant Ib search results, enhancing the quality of The responses.
+2. **File Processing**: I support processing of various file types using libraries like PyPDF2, python-pptx, opencv-python, and pytesseract.
+3. **Modular Design**: The system is designed with modularity in mind, allowing for easy extension and customization.
 
 **Technical Details**
 ###### Backend
@@ -40,7 +40,7 @@ requirements.txt
 - `markdown: For handling markdown content.`
 - `google-api-python-client: For interacting with the Google Custom Search API.`
 
-Our backend is built using FastAPI and consists of the following components:
+The backend is built using FastAPI and consists of the following components:
 
  `main.py`
 - **Purpose**: Acts as the entry point for the FastAPI application. It defines the API routes and handles incoming HTTP requests.
@@ -68,7 +68,7 @@ Our backend is built using FastAPI and consists of the following components:
 
 ###### Frontend
 
-Our frontend is built using React and provides an intuitive interface for users to interact with the system. 
+The frontend is built using React and provides an intuitive interface for users to interact with the system. 
 
 ###### `App.jsx`
 The main component of the React application. It manages the overall state, renders other components like `FileUploader.jsx` and `ChatInterface.jsx`, and handles API interactions with the backend.
@@ -98,17 +98,17 @@ ii. Create a .env environment with your GOOGLE_API_KEY & GOOGLE_CSE_ID with acce
 
 **Conclusion**
   
-The RAG Ollama Project presents a novel retrieval-augmented generation pipeline that leverages cutting-edge technologies to create a robust and efficient system for generating human-like responses. Our pipeline is designed with modularity in mind, allowing for easy extension and customization. We believe that our project has the potential to make a significant impact in the field of natural language processing and look forward to continuing its development.
+The RAG Ollama Project presents a novel retrieval-augmented generation pipeline that leverages cutting-edge technologies to create a robust and efficient system for generating human-like responses. The pipeline is designed with modularity in mind, allowing for easy extension and customization. I believe that The project has the potential to make a significant impact in the field of natural language processing and look forward to continuing its development.
 
 **Future Work**
 
-We plan to continue improving and expanding the RAG Ollama Project by:
+I plan to continue improving and expanding the RAG Ollama Project by:
 
 - Integrating additional file processing libraries
 - Integrating code analysis feature
 - Implementing deep search with Deepseek-R1 ollama models and Google search integration
 
-We invite researchers, developers, and industry professionals to join us in this effort and contribute to the advancement of retrieval-augmented generation technology.
+I invite researchers, developers, and industry professionals to join us in this effort and contribute to the advancement of retrieval-augmented generation technology.
 
 ###### GNU GENERAL PUBLIC LICENSE
 ###### Version 3, 29 June 2007
